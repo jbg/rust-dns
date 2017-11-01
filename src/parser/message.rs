@@ -8,6 +8,7 @@ use std::fmt;
 use std::cmp;
 use std::cmp::Ordering;
 
+#[derive(Debug)]
 pub struct Message<'n> {
     pub id: u16,
     pub flags: u16,
